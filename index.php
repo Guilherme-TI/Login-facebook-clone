@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/facebook.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Entrar no Facebook</title>
+    <style>
+        body {
+            background-color: #F2F2F2;
+            margin-top: 3em;
+        }
+
+        fieldset {
+            border: 2px solid gainsboro;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            width: 25em;
+            background-color: white;
+            padding: 1.2em;
+        }
+        button{
+            width: 100%;
+        }
+        legend{
+            font-size: 1.2em;
+        }
+        a{
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        form{
+            position: relative;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text text-center">
+        <img src="img/facebook.svg" alt="facebook" width="260em">
+        <form action="#" method="post">
+            <fieldset>
+                <legend class="text mb-3">Entrar no Facebook</legend>
+                <input class="form-control form-control-lg mb-3" type="text" name="email" placeholder="Email ou Telefone">
+                <input class="form-control form-control-lg mb-3" type="password" name="senha" placeholder="Senha">
+                <button class="btn btn-primary btn-lg mb-3">Acessar</button>
+                <a href="#">Esqueceu a conta?</a> <a href="#">Cadastre-se no facebook</a>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
